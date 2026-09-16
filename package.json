@@ -1,0 +1,15 @@
+{
+  "name": "royal-ua-cleaning",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node --env-file-if-exists=.env server/app.mjs",
+    "start": "node --env-file-if-exists=.env server/app.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}
